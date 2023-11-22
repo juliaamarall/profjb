@@ -295,6 +295,11 @@ h2 {
 }
 
 
-
-
+/* teste */
+@media screen and (max-width: 500px) {
+    .row1{
+        display: flex;
+        justify-content: space-between;
+    }    
+}
 
