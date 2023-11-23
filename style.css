@@ -288,10 +288,29 @@ h2 {
 
 
 @media screen and (max-width: 767px){
+
     #bloco1 > #name-central > h3{
         text-align: center;
     }
 
+    .painel-one{
+        margin: .5em;
+    }
+
+
+    .date-container {
+        width: 90%;
+        margin-right: 5%;
+        height: 100px;
+        background-color: #008442;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        padding: 0 10px;
+    }
 }
 
 
@@ -300,6 +319,12 @@ h2 {
     .row1{
         display: flex;
         justify-content: space-around;
-    }    
+    }   
+    
+    .painel-one {
+        border: 2px solid blue;
+    }
+
+
 }
 
